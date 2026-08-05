@@ -1,7 +1,6 @@
-import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Tracé - 极简中文剧本写作软件",
   description:
     "Tracé 是一款为 macOS 而生的极简中文剧本写作软件，提供场景目录、卡片墙、灵感白板与 PDF 导出。",
