@@ -95,7 +95,7 @@ export default function DonationCard() {
               ×
             </button>
             <img
-              src="/打赏收款码.JPG"
+              src="/打赏收款码.webp"
               alt="支付宝收款码"
               width="1200"
               height="1800"

@@ -431,22 +431,22 @@ img {
 }
 
 .feature-auto-format {
-  grid-column: span 7;
+  grid-column: span 6;
   background: #f8f6f1;
 }
 
 .feature-trace-document {
-  grid-column: span 5;
+  grid-column: span 6;
   background: #f6f2e9;
 }
 
 .feature-themes {
-  grid-column: span 5;
+  grid-column: span 6;
   background: #eceae5;
 }
 
 .feature-pdf-export {
-  grid-column: span 7;
+  grid-column: span 6;
   background: #f8f6f2;
 }
 

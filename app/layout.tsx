@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body>{children}</body>
+      <body>
+        <link rel="preload" as="image" href="/打赏收款码.webp" />
+        {children}
+      </body>
     </html>
   );
 }

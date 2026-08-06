@@ -83,6 +83,7 @@ const html = `<!doctype html>
       content="Tracé 是一款为 macOS 而生的极简中文剧本写作软件，提供场景目录、卡片墙、灵感白板与 PDF 导出。"
     />
     <link rel="icon" href="/trace-icon.png" />
+    <link rel="preload" as="image" href="/打赏收款码.webp" />
     ${preloads}
     <link rel="stylesheet" href="/assets/${cssName}" />
   </head>
