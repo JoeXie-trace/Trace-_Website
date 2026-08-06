@@ -157,7 +157,7 @@ export default function Home() {
 
       <section className="showcase" id="inspiration">
         <div className="showcase-copy">
-          <h2>灵感模式。<br />故事不是列表，它是一张可以漫游的地图。</h2>
+          <h2>灵感模式</h2>
           <p>
             把剧本场次拖入无限白板，添加便签、文本与连接关系。
             所有灵感都跟随同一份 Tracé 文稿保存。
