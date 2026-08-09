@@ -326,8 +326,7 @@ img {
   line-height: 1;
 }
 
-.coming-soon-button,
-.support-project-button {
+.coming-soon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -345,21 +344,13 @@ img {
   cursor: default;
 }
 
+.support-coffee-label {
+  font-size: 17px;
+  line-height: 1;
+}
+
 .support-project-button {
-  align-self: flex-end;
-  cursor: pointer;
-  transition: color 180ms ease, border-color 180ms ease, background 180ms ease, transform 180ms var(--ease-out);
-}
-
-.support-project-button:hover {
-  border-color: rgba(200, 61, 39, 0.34);
-  color: var(--brand-dark);
-  background: rgba(255, 255, 255, 0.72);
-  transform: translateY(-2px);
-}
-
-.support-project-button:active {
-  transform: translateY(0) scale(0.98);
+  white-space: nowrap;
 }
 
 .hero-visual {
@@ -898,8 +889,7 @@ footer {
     flex-wrap: wrap;
   }
   .primary-button,
-  .coming-soon-button,
-  .support-project-button { min-height: 48px; padding-inline: 20px; }
+  .coming-soon-button { min-height: 48px; padding-inline: 20px; }
   .hero-visual {
     width: calc(100% + 16px);
     margin-top: 24px;
