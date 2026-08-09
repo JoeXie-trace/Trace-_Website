@@ -109,6 +109,9 @@ export default function Home() {
               <span className="platform-label">iPadOS</span>
               <span className="coming-soon-button" aria-disabled="true">即将上线</span>
             </div>
+            <a className="support-project-button" href="#support">
+              支持项目
+            </a>
           </div>
           <div className="hero-visual" aria-label="Tracé 在 MacBook 与 iPad 上的剧本编辑页面">
             <img

@@ -326,7 +326,8 @@ img {
   line-height: 1;
 }
 
-.coming-soon-button {
+.coming-soon-button,
+.support-project-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -338,7 +339,27 @@ img {
   background: rgba(255, 255, 255, 0.46);
   font-size: 15px;
   font-weight: 600;
+}
+
+.coming-soon-button {
   cursor: default;
+}
+
+.support-project-button {
+  align-self: flex-end;
+  cursor: pointer;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease, transform 180ms var(--ease-out);
+}
+
+.support-project-button:hover {
+  border-color: rgba(200, 61, 39, 0.34);
+  color: var(--brand-dark);
+  background: rgba(255, 255, 255, 0.72);
+  transform: translateY(-2px);
+}
+
+.support-project-button:active {
+  transform: translateY(0) scale(0.98);
 }
 
 .hero-visual {
@@ -612,11 +633,6 @@ img {
   outline-offset: 3px;
 }
 
-.donation-coffee {
-  font-size: 22px;
-  line-height: 1;
-}
-
 .donation-action {
   display: inline-flex;
   align-items: center;
@@ -879,9 +895,11 @@ footer {
   .platform-downloads {
     justify-content: flex-start;
     gap: 12px;
+    flex-wrap: wrap;
   }
   .primary-button,
-  .coming-soon-button { min-height: 48px; padding-inline: 20px; }
+  .coming-soon-button,
+  .support-project-button { min-height: 48px; padding-inline: 20px; }
   .hero-visual {
     width: calc(100% + 16px);
     margin-top: 24px;

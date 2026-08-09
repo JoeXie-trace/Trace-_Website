@@ -64,10 +64,7 @@ export default function DonationCard() {
         onClick={() => setOpen(true)}
       >
         <span className="donation-action">
-          <span className="donation-coffee" aria-hidden="true">
-            ☕
-          </span>
-          <span>扫码请我喝咖啡</span>
+          <span>点这里请我喝一杯咖啡☕️</span>
           <span className="donation-arrow" aria-hidden="true">
             ›
           </span>
