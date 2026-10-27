@@ -199,6 +199,8 @@ export default function Home() {
       <footer>
         <a className="wordmark footer-wordmark" href="#top">Tracé<span className="wordmark-dot">.</span></a>
         <div className="footer-links">
+          <a href="/support/">技术支持</a>
+          <a href="/privacy/">隐私政策</a>
           <a href="mailto:yiqiaoxie33+trace@gmail.com">联系作者</a>
           <span>© 2026 Tracé</span>
         </div>
