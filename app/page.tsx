@@ -49,7 +49,7 @@ const features = [
 ];
 
 const macDownloadHref =
-  "https://github.com/JoeXie-trace/Trace-_Website/releases/download/v.1.2/Trace.V1.2.dmg";
+  "https://github.com/JoeXie-trace/Trace-_Website/releases/download/v1.3/Trace.v1.3.dmg";
 
 export default function Home() {
   return (
